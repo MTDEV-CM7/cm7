@@ -1,0 +1,25 @@
+CyanogenMod - MTDEV-CM7
+===========
+Version 7.2
+---------------
+This version of CM7 is based off CyanogenMod 7.2.0. To standardize the code for the Motorola Triumph, I decided it was best to break away 
+from the main line. Since 7.2.0 is a stable release not many more features will be added to the this revision making it a perfect canidate
+for breaking away from the main line. This release is the best attempt at having the most solid version of CM7 for our device as updates
+will not break hardware aspects of the device i.e. Camera, Sound, etc..
+
+Getting Started
+---------------
+
+To get started with Android/CyanogenMod, you'll need to get
+familiar with [Git and Repo](http://source.android.com/download/using-repo).
+
+To initialize your local repository with the MTDEV-CM7 trees, use the following command:
+
+    repo init -u https://github.com/MTDEV-CM7/cm7.git -b cm7
+
+Then to sync up:
+
+    repo sync
+
+Please see [MTDEV](http://mtdev.us/build-cm7/) for full building instructions
+

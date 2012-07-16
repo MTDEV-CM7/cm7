@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+<remote  name="korg"
+           fetch="git://android.git.kernel.org/"
+           review="review.source.android.com" />
+
+  <remote  name="github"
+           fetch=".."
+           review="review.cyanogenmod.com" />
+           
+  <default revision="cm7"
+           remote="github" />
+           
+  <remote  name="MTDEV-CM7"
+           fetch="https://github.com/" />
+
+  <project path="build" name="MTDEV-CM7/build">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+   <project path="bionic" name="MTDEV-CM7/bionic" />
+   <project path="bootable" name="MTDEV-CM7/bootable" />
+   <project path="dalvik" name="MTDEV-CM7/dalvik" />
+   <project path="development" name="MTDEV-CM7/development" />
+   <project path="device" name="MTDEV-CM7/device" />
+   <project path="external" name="MTDEV-CM7/external" />
+   <project path="frameworks" name="MTDEV-CM7/frameworks" />
+   <project path="hardware" name="MTDEV-CM7/hardware" />
+   <project path="libcore" name="MTDEV-CM7/libcore" />
+   <project path="ndk" name="MTDEV-CM7/ndk" />
+   <project path="packages" name="MTDEV-CM7/packages" />
+   <project path="prebuilt" name="MTDEV-CM7/prebuilt" />
+   <project path="sdk" name="MTDEV-CM7/sdk" />
+   <project path="system" name="MTDEV-CM7/system" />
+   <project path="vendor" name="MTDEV-CM7/vendor" />
+   
+   <project path="cm7" name="MTDEV-CM7/cm7" />
+
+</manifest>
