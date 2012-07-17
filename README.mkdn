@@ -1,6 +1,6 @@
 CyanogenMod - MTDEV-CM7
 ===========
-Version 7.2
+Version 7.2.0
 ---------------
 This version of CM7 is based off CyanogenMod 7.2.0. To standardize the code for the Motorola Triumph, I decided it was best to break away 
 from the main line. Since 7.2.0 is a stable release not many more features will be added to the this revision making it a perfect canidate
